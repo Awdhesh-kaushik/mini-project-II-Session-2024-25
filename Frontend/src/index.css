@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.bs1 {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.ant-row {
+  margin: 0 20 !important;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+p {
+  margin: 5px !important;
+  padding: 0;
+}
+
+.btn-invoice {
+  margin-left: 42%;
+  /* margin-top: 5px; */
+  margin-bottom: 15px;
+}
+
+.btn1 {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: teal;
+  border: 1px solid teal;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+.bcardata {
+  font-size: 18px;
+}
+
+.bcarname {
+  font-weight: 400;
+}
+
+.booktitle {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #016282;
+  padding: 6px;
+}
+.bt1:hover {
+  color: green;
+}
+button {
+  padding: 3px 10px !important;
+}
+
+.city {
+  margin: 20px 40px;
+  border-radius: 300px;
+  height: 53px;
+  width: 15%;
+  border-width: 3px;
+  font-size: 20px;
+  color: grey;
+  padding: -7px;
+  text-align: center;
+}
+
+/* CSS to change font color and size of placeholder */
+.ant-select-selection-placeholder {
+  font-size: 20px; /* Change placeholder font size */
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  margin-top: 22px;
+  margin-right: 50px !important;
+  border: 3px solid rgb(5, 173, 129) !important;
+  border-radius: 30px !important;
+  position: relative;
+  border-radius: 2px;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  height: 50px !important;
+}
+
+.ant-select-selector .ant-select-selection-placeholder,
+.ant-select-selector .ant-select-selection-item {
+  /* Styles to remove arrow icon */
+  color: black;
+  background-image: none !important;
+  padding-right: 8px !important; /* Optional: Adjust padding to align text properly */
+}
+
+.ant-select-arrow {
+  /* Styles to remove arrow icon */
+  display: none !important;
+}
+.ant-select-selector {
+  /* Ensure placeholder text color and font size */
+  color: black !important;
+  font-size: 16px !important;
+}
+
+.hpage .ant-select {
+  margin-right: 20px !important;
+}
+
+.Bgimg {
+  background-image: url("../src/Images/home-1.jpg");
+  /* background-image: url("D:\WanderWheelsTest\client\src\images\home-1.jpg"); */
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(2px); */
+  width: 100%;
+  height: 89vh;
+}
+
+/* CSS to change font color of RangePicker */
+.hpage .ant-picker-input input {
+  color: #333; /* Change font color */
+}
+
+.text {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -890%);
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header {
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  padding: 10px;
+  background-color: rgb(255, 201, 0);
+  /* color: blue; */
+  border-bottom: 3px solid #15c5ff;
+  /* background-color: #c5aa6a; */
+}
+
+.header-btn {
+  height: 40px !important;
+  width: auto;
+  margin-left: auto;
+  text-align: center !important;
+  border: 2px solid teal !important;
+  color: teal !important;
+  font-size: 19px;
+  /* border-color: teal !important; */
+  border-radius: 20px !important;
+}
+
+.nav-links {
+  margin-left: 50px;
+  font-weight: 400;
+  /* justify-content: flex-end; */
+}
+
+/* .nav-links {
+  margin-left: auto; /* Move nav-links to the left as much as possible */
+.logout-link {
+  /* color: rgb(193, 102, 102); */
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: bold;
+}
+.nav-link {
+  display: inline;
+  font-size: 19px;
+  margin-right: 10px;
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  text-decoration: underline;
+  /* color: red; Add color in navlink */
+}
+.text-logo {
+  font-size: 55px !important;
+  font-family: "Raleway";
+  font-weight: 900;
+  line-height: 50px;
+  /* opacity: 0.9; */
+}
+
+/* CSS */
+.header .ant-btn {
+  background: #fff;
+  backface-visibility: hidden;
+  border-radius: 0.375rem;
+  border-style: solid;
+  border-width: 0.125rem;
+  box-sizing: border-box;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  padding: 0.875rem 1.125rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hbutton {
+  top: 15px;
+  align-items: center;
+  justify-content: center;
+  /*width: 90px !important;*/
+  text-align: center !important;
+  border: 2px solid rgb(45, 162, 162) !important;
+}
+
+.header .ant-btn:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.header .ant-btn:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(0.125rem);
+}
+
+.header .ant-btn:focus {
+  outline: 0 solid transparent;
+}
+
+.header .ant-btn:focus:before {
+  content: "";
+  left: calc(-1 * 0.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1 * 0.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.header .ant-btn:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.header .ant-btn:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.header .ant-btn:not(:disabled):active {
+  transform: translateY(0.125rem);
+}
+
+.content {
+  min-height: 90vh;
+  /* background-color: rgb(255, 255, 230); */
+  background-color: rgb(246, 242, 242);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-family: "Noto Sans JP";
+  text-align: center;
+  background-color: #1e2761;
+  box-sizing: border-box;
+  padding: 10px;
+  max-height: 100%;
+}
+.footer-heading-bar {
+  margin: 5px 24px;
+}
+.contactdetails {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 7%;
+  font-weight: 350;
+  text-align: left;
+}
+.aboutus {
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: left;
+  margin: 18px 20px;
+}
+
+.aboutus h4 {
+  color: #fff;
+}
+
+.sub-description {
+  margin: 24px;
+  text-align: justify;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 320;
+  width: 90%;
+}
+
+.sub-description h5 {
+  color: #fff;
+}
+
+.bold {
+  font-size: 40px;
+}
+
+.ficons {
+  display: flex;
+}
+.ficons img {
+  margin: 4px 10px;
+  cursor: pointer;
+  /* padding: 5px; */
+}
+.flstyle {
+  color: #fff;
+  padding: 10px;
+  /* margin: 200px; */
+}
+
+.frstyle a {
+  color: #66d1f5 !important;
+}
+
+.copyright {
+  overflow: hidden;
+  font-size: 16px;
+  height: 2%;
+  background-color: rgb(41, 157, 157);
+  color: #fff;
+  font-weight: 400;
+}
+
+/* this is just for ui purpose , no functionality is related */
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+.car:hover {
+  height: 220px;
+}
+.car:hover > .car-content {
+  opacity: 1;
+  transform: translateY(-40px);
+}
+.carimg {
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+
+.car-content {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.login {
+  background-color: rgb(205, 239, 230);
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.login label,
+.login h1 {
+  color: rgb(0, 101, 101) !important;
+  opacity: 0.9;
+  font-size: 40px;
+}
+
+.logp {
+  background-color: rgb(253, 249, 244);
+  border: 4px solid #15c5ff;
+  color: black;
+  border-radius: 25px;
+}
+
+.fontSize {
+  font-size: 19px !important;
+}
+
+.login-form {
+  background-color: rgb(239, 251, 220) !important;
+}
+.login-form input {
+  background-color: #d4d2d2 !important;
+  border: 0.2px solid !important;
+  color: black;
+  font-size: 18px;
+  /* opacity: 0.; */
+}
+.login-logo {
+  position: absolute;
+  font-size: 55px !important;
+  font-family: "Raleway";
+  font-weight: 900;
+  line-height: 52px;
+  top: -20px;
+  left: 5%;
+  opacity: 0.9 !important;
+}
+
+.login-log {
+  position: absolute;
+  font-size: 55px !important;
+  font-family: "Raleway";
+  font-weight: 900;
+  line-height: 52px;
+  top: -65px;
+  left: 5%;
+  opacity: 0.9 !important;
+}
+.login a {
+  color: rgb(0, 162, 255) !important;
+  /* opacity: 1; */
+  font-size: 19px;
+}
+.login a:hover {
+  color: rgb(72, 63, 252) !important;
+  /* opacity: 0.5; */
+  font-size: 19px;
+}
+
+.carimg2 {
+  /* height: 50% !important; */
+  border-radius: 10px;
+  width: auto;
+}
+
+svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+a {
+  color: teal !important;
+}
+
+.size {
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+.text-left {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.carname {
+  color: rgb(240, 56, 56);
+}
+
+/* .hidden{
+display: none;
+} */
+
+#my-form {
+  display: none;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 870px) {
+  .datepic {
+    width: 80%; /* Adjust the width as per your requirement */
+  }
+}
+
+.filter {
+  /* justify-content: right; */
+  margin-top: 10px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+.hpage .ant-btn {
+  padding: 4px;
+  font-size: 20px;
+}
+
+.hpage .ant-picker-range {
+  top: 20px;
+  border: 3px solid rgb(5, 173, 129) !important ;
+  border-radius: 50px !important;
+  height: 50px;
+  /* color: red !important; */
+}
+
+.ant-picker-range {
+  top: 20px;
+  border: 3px solid rgb(5, 173, 129) !important ;
+  border-radius: 50px !important;
+  height: 50px;
+}
+
+.btnSee {
+  color: rgb(1, 52, 62);
+  border-radius: 5px;
+  font-size: 17px;
+}
+.btnSee:hover {
+  color: rgb(4, 132, 158);
+  border: 2px solid rgb(218, 32, 32);
+  border-radius: 5px;
+  font-size: 17px;
+}
+.ant-picker-input > input {
+  font-size: 22px !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.display {
+  margin-left: 50px;
+  /* height: 70vh !important; */
+  background-color: white;
+  color: #336699;
+  display: flex;
+  border-radius: 12px;
+  height: 100%;
+  max-width: 500px;
+}
+
+.display h4 {
+  color: #336699;
+  padding: 5px;
+}
+
+.car-image-container {
+  flex: 3;
+}
+
+.car-detail {
+  flex: 2;
+  text-align: left;
+  margin: 15px;
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+.car-detail h3 {
+  text-align: center;
+  margin: 9px;
+  color: #336699;
+}
+.car-detail p {
+  padding: 3px;
+}
+
+.Paymentbtn {
+  font-size: 19px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  background-color: #336699;
+  color: white;
+}
+.Paymentbtn:active {
+  font-size: 19px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  background-color: #cacaca;
+  color: black;
+}
+
+.check {
+  font-size: 17px !important;
+}
+
+.seeinfo {
+  font-size: 19px;
+}
+
+.totalAmount {
+  color: blue !important;
+}
+
+.booktitle {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #016282;
+  padding: 6px;
+}
+
+.bcardata {
+  font-size: 18px;
+}
+.admintitle {
+  font-size: 29px;
+  font-weight: bold;
+  color: #016282;
+  padding: 6px;
+}
+.bcarname {
+  font-weight: 400;
+}

@@ -1,0 +1,165 @@
+.fuel-form-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fuel-form {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  padding: 20px;
+  border-radius: 5px;
+}
+.fuel {
+  /* font-size: 30px; */
+  color: teal;
+}
+
+.custom-drawer {
+  color: red !important;
+}
+
+.fuel-radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-drawer .ant-form-vertical .ant-form-item-label > label,
+.ant-col-24.ant-form-item-label > label,
+.ant-col-xl-24.ant-form-item-label > label {
+  color: teal;
+  font-size: 22px !important;
+  margin: 0;
+}
+.submit-button {
+  display: flex;
+  width: 100%;
+}
+.sbutton {
+  justify-content: center !important;
+}
+.ant-drawer-header {
+  border-bottom: #fff !important;
+}
+.ant-input-number {
+  border-color: #fff !important;
+}
+.ant-input-number-input:placeholder-shown {
+  text-overflow: ellipsis;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+}
+.ant-input-number-input:placeholder-shown::after {
+  text-overflow: ellipsis;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.ant-input-number-input {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.filform {
+  background-color: red;
+  height: 500px;
+  position: static;
+}
+
+.ant-drawer-title {
+  font-family: Lato;
+  border-bottom: 3px solid teal !important;
+  border-radius: 6px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  color: #735da5 !important;
+  font-size: 35px !important;
+  font-weight: bold !important;
+}
+
+.span.ant-radio + * {
+  color: green !important;
+  padding-right: 80px !important;
+  padding-left: 8px;
+}
+
+.ant-form label {
+  font-weight: 500;
+  font-style: serif;
+  font-size: 20px !important;
+}
+.fuel-form {
+  border-color: #fff;
+}
+.input:not([type="range"]) {
+  font-size: 20px;
+}
+.ant-input-number-input {
+  font-size: 20px;
+}
+.fuel-form .ant-btn,
+.ant-btn:active,
+.ant-btn:focus {
+  outline: 0;
+  color: rgb(1, 68, 80) !important;
+}
+
+.filimgsize {
+  height: 40px;
+  width: 45px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 5px !important;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.filimgsize::after {
+  content: "Apply Filter";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+@media (max-width: 995px) {
+  .filimgsize {
+    /* Position the image to the right with a margin */
+    /* position: fixed;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-50%); */
+    position: relative;
+    right: -385px;
+    top: -30px;
+  }
+}
+
+.btn2 {
+  box-shadow: none !important;
+  background-color: rgb(251, 242, 242) !important;
+  color: rgb(7, 1, 69) !important;
+  border: 3px solid teal !important;
+  border-radius: 10px !important;
+  padding: 5px 15px !important;
+  font-size: 20px !important;
+  height: 40px !important;
+  padding: 2px !important;
+  margin: 50px;
+  left: 9px !important;
+  width: 150px;
+}
+
+/* @media only screen and (max-width:995px){
+    .filimgsize{
+        right: 5% !important;
+    }
+  } */
